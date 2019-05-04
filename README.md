@@ -5,9 +5,8 @@
 - Google Spreadsheetだけを用いた暗号通貨の値動きを抽出したもの
 - Google SpreadsheetのIMPORTXML関数にて暗号通貨のhistoricalデータをスクレイピング
 - Google SpreadsheetのGoogleFinance関数にてUSD to JPYに変換
-  - ※ただし現在のJP価格になっている。date当時のものではない
 - Historycalのデータソースは `coinmarketcap.com`
-- 対応している暗号通貨は `bitcoin`, `bitcoin-cash`, `ripple`, `ethereum`
+- 対応している暗号通貨は `bitcoin`, `bitcoin-cash`, `ripple`, `ethereum` ... coinmarketcap.comに掲載されている通貨であれば対応可能
 - Google Spreadsheetに抽出したデータに対して自身でグラフを作ったり、他のツールにコピペで転載が可能
 - DefaultではEnd_Dateから100日遡ってデータを取得している
 
