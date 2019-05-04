@@ -21,7 +21,7 @@ def main():
            base_import_string.format(i, 5), ' * ', base_currency_string.format(i + 1), '\t',
            base_import_string.format(i, 4), ' * ', base_currency_string.format(i + 1), '\t',
            base_import_string.format(i, 3), ' * ', base_currency_string.format(i + 1), '\t',
-           '=AVERAGE(D{}:E{})'.format(i, i), sep = '')
+           '=AVERAGE(D{}:E{})'.format(i + 1, i + 1) , sep = '')
 
 if __name__ == '__main__':
   main()
